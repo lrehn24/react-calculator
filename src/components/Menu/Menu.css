@@ -1,0 +1,35 @@
+.menuCont {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.menuDrop {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.menu {
+    position: absolute;
+    bottom: -180px;
+    background: #abb0d0;
+    border-radius: 8px;
+    visibility: hidden;
+    width: 200px;
+    padding-left: 0;
+}
+.menu.active {
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.menu li {
+    width: 100%;
+    border-bottom: 1px solid black;
+    color: black;
+    list-style: none;
+    font-size: 30px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}

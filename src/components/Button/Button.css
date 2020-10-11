@@ -1,0 +1,38 @@
+.Button {
+    border: solid 1px #434f96;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    cursor: pointer;
+}
+
+.Button.blank {
+    visibility: hidden;
+}
+.Button.zero {
+    width: 240px;
+    grid-column: 1 / span 2;
+    border-radius: 57.5px;
+    position: relative;
+}
+
+.Button.equals {
+    height: 220px;
+    border-radius: 57.5px;
+    grid-row: 4 / span 5;
+    grid-column: 4;
+}
+
+.Button.function {
+    border: solid 1px #fbdb4d;
+}
+
+.Button.operator {
+    border: #fbdb4d;
+    background: #fbdb4d;
+    color: #434f96;
+}
